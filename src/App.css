@@ -1,0 +1,8 @@
+#navbar ul.menu-horizontal li a.active,
+#navbar ul.menu-horizontal li a:hover {
+  background-color: transparent;
+  color: #ff444a;
+  /* border-bottom: #ff444a 1px solid; */
+  text-decoration: underline;
+  border-radius: 0;
+}
