@@ -15,9 +15,12 @@ const Statistic = () => {
     return total + donation.cost;
   }, 0);
 
+  const myDonationPercentage = ((myTotalDonation * 100) / totalDonation).toFixed(2) * 1;
+  const totalDonationPercentage = (100 - myDonationPercentage).toFixed(2) * 1;
+
   const data = [
-    { name: 'Total Donation', value: totalDonation },
-    { name: 'Your Donation', value: myTotalDonation }
+    { name: 'Total Donation', value: totalDonationPercentage },
+    { name: 'Your Donation', value: myDonationPercentage }
   ];
 
   const COLORS = ['#FF444A', '#00C49F'];
@@ -52,6 +55,15 @@ const Statistic = () => {
           </Pie>
         </PieChart>
         {/* </ResponsiveContainer> */}
+
+        <div className="flex justify-center gap-x-14 flex-wrap gap-y-5">
+          <div className="flex gap-4">
+            <small>Your Donation</small> <div className="label bg-[#00C49F] rounded-sm w-[100px] h-3"></div>
+          </div>
+          <div className="flex gap-4">
+            <small>Total Donation</small> <div className="label bg-[#FF444A] rounded-sm w-[100px] h-3"></div>
+          </div>
+        </div>
       </div>
     </>
   );
