@@ -1,8 +1,8 @@
 import { Link, NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ position = 'absolute' }) => {
   return (
-    <div className="navbar max-w-[1350px] mx-auto px-[15px] absolute top-12 left-0 right-0 min-h-[92px]" id="navbar">
+    <div className={`navbar max-w-[1350px] mx-auto px-[15px] ${position} top-12 left-0 right-0 min-h-[92px]`} id="navbar">
       <div className="block">
         <Link className="btn btn-ghost normal-case text-xl block hover:bg-transparent h-auto">
           <img src="/images/logo.png" alt="Logo" className="w-full max-w-[252px]" />

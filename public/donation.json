@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Clean water for children",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Health",
+    "image": "https://chandansayed.github.io/course-image-links/Health.png",
+    "bgColor": "rgba(0, 82, 255, 0.15)",
+    "badgeBgColor": "rgba(0, 82, 255, 0.20)",
+    "color": "rgba(0, 82, 255, 1)"
+  },
+  {
+    "id": 2,
+    "title": "Good education",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Education",
+    "image": "https://chandansayed.github.io/course-image-links/Education.png",
+    "bgColor": "rgba(255, 68, 74, 0.15)",
+    "badgeBgColor": "rgba(255, 68, 74, 0.20)",
+    "color": "rgba(255, 68, 74, 1)"
+  },
+  {
+    "id": 3,
+    "title": "Used Clothing Drive",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Clothing",
+    "image": "https://chandansayed.github.io/course-image-links/Clothing.png",
+    "bgColor": "rgba(121, 194, 63, 0.15)",
+    "badgeBgColor": "rgba(121, 194, 63, 0.20)",
+    "color": "rgba(121, 194, 63, 1)"
+  },
+  {
+    "id": 4,
+    "title": "Better Food for Everyone",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Food",
+    "image": "https://chandansayed.github.io/course-image-links/Food.png",
+    "bgColor": "rgba(248, 113, 71, 0.15)",
+    "badgeBgColor": "rgba(248, 113, 71, 0.20)",
+    "color": "rgba(248, 113, 71, 1)"
+  },
+  {
+    "id": 5,
+    "title": "Used Clothing Drive",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Clothing",
+    "image": "https://chandansayed.github.io/course-image-links/Clothing.png",
+    "bgColor": "rgba(121, 194, 63, 0.15)",
+    "badgeBgColor": "rgba(121, 194, 63, 0.20)",
+    "color": "rgba(121, 194, 63, 1)"
+  },
+  {
+    "id": 6,
+    "title": "Better Food for Everyone",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Food",
+    "image": "https://chandansayed.github.io/course-image-links/Food.png",
+    "bgColor": "rgba(248, 113, 71, 0.15)",
+    "badgeBgColor": "rgba(248, 113, 71, 0.20)",
+    "color": "rgba(248, 113, 71, 1)"
+  },
+  {
+    "id": 7,
+    "title": "Clean water for children",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Health",
+    "image": "https://chandansayed.github.io/course-image-links/Health.png",
+    "bgColor": "rgba(0, 82, 255, 0.15)",
+    "badgeBgColor": "rgba(0, 82, 255, 0.20)",
+    "color": "rgba(0, 82, 255, 1)"
+  },
+  {
+    "id": 8,
+    "title": "Good education",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Education",
+    "image": "https://chandansayed.github.io/course-image-links/Education.png",
+    "bgColor": "rgba(255, 68, 74, 0.15)",
+    "badgeBgColor": "rgba(255, 68, 74, 0.20)",
+    "color": "rgba(255, 68, 74, 1)"
+  },
+  {
+    "id": 9,
+    "title": "Clean water for children",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Health",
+    "image": "https://chandansayed.github.io/course-image-links/Health.png",
+    "bgColor": "rgba(0, 82, 255, 0.15)",
+    "badgeBgColor": "rgba(0, 82, 255, 0.20)",
+    "color": "rgba(0, 82, 255, 1)"
+  },
+  {
+    "id": 10,
+    "title": "Good education",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Education",
+    "image": "https://chandansayed.github.io/course-image-links/Education.png",
+    "bgColor": "rgba(255, 68, 74, 0.15)",
+    "badgeBgColor": "rgba(255, 68, 74, 0.20)",
+    "color": "rgba(255, 68, 74, 1)"
+  },
+  {
+    "id": 11,
+    "title": "Used Clothing Drive",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Clothing",
+    "image": "https://chandansayed.github.io/course-image-links/Clothing.png",
+    "bgColor": "rgba(121, 194, 63, 0.15)",
+    "badgeBgColor": "rgba(121, 194, 63, 0.20)",
+    "color": "rgba(121, 194, 63, 1)"
+  },
+  {
+    "id": 12,
+    "title": "Better Food for Everyone",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "cost": 290,
+    "category": "Food",
+    "image": "https://chandansayed.github.io/course-image-links/Food.png",
+    "bgColor": "rgba(248, 113, 71, 0.15)",
+    "badgeBgColor": "rgba(248, 113, 71, 0.20)",
+    "color": "rgba(248, 113, 71, 1)"
+  }
+]
