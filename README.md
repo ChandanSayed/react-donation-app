@@ -1,8 +1,7 @@
-# React + Vite
+# 3 Features of the app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+  <li>Fetching Data from the JSON and render it with the design</li>
+  <li>Dynamic route according to the ID and fetch data dynamically</li>
+  <li>Search Functionality according to the category</li>
+</ul>

@@ -17,7 +17,7 @@ const Donation = () => {
         {donatedList.length ? (
           <div className="card-container grid grid-cols-1 lg:grid-cols-2 gap-6">
             {donatedList.slice(0, sliceLength).map(donation => (
-              <Card donation={donation} key={donation.id} handleDonation={handleDonation} classes={`card-side`} showPriceViewDetails={true} />
+              <Card donation={donation} key={donation.id} handleDonation={handleDonation} classes={`md:card-side`} showPriceViewDetails={true} />
             ))}
           </div>
         ) : (
