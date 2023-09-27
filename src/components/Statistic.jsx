@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts';
+import Navbar from './Navbar';
+import { useLoaderData } from 'react-router-dom';
 
 const Statistic = () => {
+  const donations = useLoaderData();
+  const [myDonation, setMyDonation] = useState([]);
+
+  const myTotalDonation = myDonation.reduce((total, donation) => {
+    return total + donation.cost;
+  }, 0);
+
+  const totalDonation = donations.reduce((total, donation) => {
+    return total + donation.cost;
+  }, 0);
+
   const data = [
-    { name: 'Group A', value: 400 },
-    { name: 'Group B', value: 300 },
-    { name: 'Group C', value: 300 },
-    { name: 'Group D', value: 200 }
+    { name: 'Total Donation', value: totalDonation },
+    { name: 'Your Donation', value: myTotalDonation }
   ];
 
-  const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+  const COLORS = ['#FF444A', '#00C49F'];
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
@@ -23,17 +34,25 @@ const Statistic = () => {
       </text>
     );
   };
+
+  useEffect(() => {
+    if (localStorage.getItem('donationList')) setMyDonation(JSON.parse(localStorage.getItem('donationList')));
+  }, []);
+
   return (
     <>
-      <ResponsiveContainer width="100%" height="100%">
-        <PieChart width={400} height={400}>
+      <Navbar position={'static pt-[53px]'} />
+      <div className="max-w-[1350px] mx-auto pt-24 px-[15px] pb-32">
+        {/* <ResponsiveContainer width="100%" height="100%"> */}
+        <PieChart width={400} height={400} className="mx-auto">
           <Pie data={data} cx="50%" cy="50%" labelLine={false} label={renderCustomizedLabel} outerRadius={80} fill="#8884d8" dataKey="value">
             {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
         </PieChart>
-      </ResponsiveContainer>
+        {/* </ResponsiveContainer> */}
+      </div>
     </>
   );
 };
